@@ -12,9 +12,6 @@ htmlCode = """\
                         <table>
                         <tr><h3> IMPORTED ICE CUBE FROM NORTH POLE </h3></tr>
                         <tr><img src="http://%s/img/ice-cube.jpg" width="300" height="250"/></tr>
-                        <tr><td><p class="lead"> Buyer Credentials:</p></td></tr>
-                        <tr><td>Email-id:&nbsp;&nbsp;&nbsp;<input type="text" id="buyer_email" name="buyer_email" readonly></input> </td></tr>
-                        <tr><td>Password:<input type="text" id="buyer_password" name="buyer_password" readonly></input></td></tr>
                         </table>
                   </div>
                   <div class="span8 inner-span">
@@ -82,22 +79,6 @@ htmlCode = """\
       </div>
       <!--Script to dynamically choose a seller and buyer account to render on index page-->
       <script type="text/javascript">
-       function getRandomNumberInRange(min, max) {
-          return Math.floor(Math.random() * (max - min) + min);
-       }
-      
-      var buyerCredentials = [{"email":"ron@hogwarts.com", "password":"qwer1234"},
-                        {"email":"sallyjones1234@gmail.com", "password":"p@ssword1234"},
-                        {"email":"joe@boe.com", "password":"123456789"},
-                        {"email":"hermione@hogwarts.com", "password":"123456789"},
-                        {"email":"lunalovegood@hogwarts.com", "password":"123456789"},
-                        {"email":"ginnyweasley@hogwarts.com", "password":"123456789"},
-                        {"email":"bellaswan@awesome.com", "password":"qwer1234"},
-                        {"email":"edwardcullen@gmail.com", "password":"qwer1234"}];
-      var randomBuyer = getRandomNumberInRange(0,buyerCredentials.length);
-      
-      document.getElementById("buyer_email").value =buyerCredentials[randomBuyer].email;
-      document.getElementById("buyer_password").value =buyerCredentials[randomBuyer].password;
       function update(){
             document.getElementById('Total').value = parseInt(document.getElementById('Quantity').value)*(parseFloat(document.getElementById('Price').value))+parseFloat(document.getElementById('Tax').value)
                                                 +parseFloat(document.getElementById('Fee1').value)+parseFloat(document.getElementById('Fee2').value)+parseFloat(document.getElementById('Fee3').value)
