@@ -1,14 +1,13 @@
 EXPRESSCHECKOUT WITH PAYPAL DEMO
 
-1) Download PHP server.
-Use a server such as XAMPP (https://www.apachefriends.org/index.html) to be able to host the Demo code sample.
+1) Live site here: http://ppecphpicecube-viettrung9012.rhcloud.com/index.php
 
-2) Browse to the htdocs directory of xampp. Unzip the downloaded demo code folder and place it in this htdocs directory.
+2) There is also a Python version of the code because I worked on Python first but was unable to deploy
 
-3) Start the Apache server in XAMPP from the XAMPP control panel.  
-
-4) Open the website in the browser and access it as: http://my_domain/php_code_folder_name/index.php 
-   Here, my_domain will be localhost if hosting on your own machine.  
-   The php_code_folder_name is the name of the folder under which the downloaded code resides ('Checkout' folder in case you have not changed the default name).
-
-5) Read further instructions on the above page you open.
+3) What I did:
+	- Get source code from http://demo.paypal.com
+	- Edit logo and item image
+	- Modifies some parts in paypal_ec_redirect.php(.py) to make the calculation correct when quantity is changed
+	- Edit index.php(.py) to remove demo explanation and to make the layout cleaner
+	- Edit the form in index.php(.py) to enable changing the quantity of item to be bought
+	- Use Openshift to host the demo online

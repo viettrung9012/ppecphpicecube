@@ -18,9 +18,9 @@
                         <p class="lead"> Item Specifications:</p>
                         <div class="span5">
                            <table>
-                              <tr><td>Item Name:</td><td><input type="text" name="L_PAYMENTREQUEST_0_NAME0" value="Ice cube" readonly></input></td></tr>
-                              <tr><td>Item ID: </td><td><input type="text" name="L_PAYMENTREQUEST_0_NUMBER0" value="COLD+CUBE" readonly></input></td></tr>
-                              <tr><td>Description:</td><td><input type="text" name="L_PAYMENTREQUEST_0_DESC0" value="Imported From North Pole" readonly></input></td></tr>
+                              <tr><td>Item Name:</td><td><input type="text" name="L_PAYMENTREQUEST_0_NAME0" value="Ice cube from North Pole" readonly></input></td></tr>
+                              <tr><td>Item ID: </td><td><input type="text" name="L_PAYMENTREQUEST_0_NUMBER0" value="V3RYC01D" readonly></input></td></tr>
+                              <tr><td>Description:</td><td><input type="text" name="L_PAYMENTREQUEST_0_DESC0" value="1 second for your cold drink" readonly></input></td></tr>
                               <tr><td>Quantity:</td><td><input type="number" id="Quantity" name="L_PAYMENTREQUEST_0_QTY0" value="1" min="1" onchange=update()></input></td></tr>
                               <tr><td>Price:</td><td><input type="text" id="Price" name="L_PAYMENTREQUEST_0_AMT0" value="10.00" readonly></input></td></tr>
                               <tr><td>Tax:</td><td><input type="text" id="Tax" name="PAYMENTREQUEST_0_TAXAMT" value="2" readonly></input></td></tr>
